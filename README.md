@@ -92,3 +92,5 @@ El resultat és el que s'adjunta al fitxer validator_w3_org.pdf
 * https://www.minifier.org/ per minifier de css
 * http://kangax.github.io/html-minifier/ per minifier de html
 * https://www.w3schools.com/js/default.asp per tutorial de javascript
+* http://jigsaw.w3.org/css-validator/ validació de css
+
