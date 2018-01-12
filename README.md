@@ -33,6 +33,15 @@ Son els paràmetres que mostrarem en pantalla i els seus valors varien constantm
 * hayfuel, nivell, pausat són variables d'entorn amb les que controlam si hi ha nivell de combustible, el nivell de dificultad i pausat indica si s'ha pitjat la tecla de pausa.
 
 ----
+## Creació d'una branca minifier al nostre projecte
+Hem creat un branch al github que es diu minifier
+
+----
+## Utilització d'eines minifier al nostre projecte
+* Hem utilitzat https://www.minifier.org/ per a minificar el codi css i el javascript i l'hem posat a un branch al github que es diu minifier amb els noms d.css i m.css
+* Hem utilitzat https://kangax.github.io/html-minifier/ per a minificar el codi html i l'hem posat a un branch al github que es diu minifier amb el nom index.html, comesjugag.html i about.html
+
+----
 ## Discriminació de pàgina d'estils segons el tipus de pantalla.
 * Hem utilitzat la utilitat de media query per tal de discriminar pel tamany de la pantalla si es tracta d'una visualització tipus desktop o bé una tipus mòbil o tablet.
 * El codi utilitzat és:
