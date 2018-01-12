@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body{height:100%;padding:0px;margin:0px;background: url("../img/earth2.png")no-repeat center center fixed;background-size: cover;}
+
+.espaipanel{display:inline-block;width:32%;height:100%;float:left;position:fixed;top:0;left:1%}
+.espaimenu{display:inline-block;width:30%;height:100%;float:left;position:fixed;top:5%;right:1%}
+.lluna{background-image: url("../img/moon2.png");height:10%;width:100%;bottom:0%;background-size:cover;position:fixed;}
+
+#nave{text-align:center;position:fixed;top:5%;width:100%;height:100%}
+#nave img{height:20%;z-index:-1;}
+#cpanel{color:yellow;background-color: grey;font-family: 'Iceland', cursive;opacity: 0.8;font-weight:bold;border:solid white;} 
+#hidem,#showm{display:none}
+
+
+#cpanel li{
+	clear:left;
+	margin-left: 1%;
+	padding: 1%;
+	font-size: 1.875em;
+	list-style-type: none
+	}
+
+		
+#menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: grey;
+opacity:0.8;
+}
+
+#menu li{
+float: left;
+}
+
+#menu li a {
+display: block;
+color: yellow;
+text-align: center;
+font-family: 'Iceland', cursive;
+padding: 14px 16px;
+text-decoration: none;
+}
+#menu li a:hover:not(.active) {
+background-color: grey
+}
+
+.active {
+ background-color: #4CAF50; /*fons verd*/ 
+}
+
+p {font-size: 1.875em;color:yellow;text-align:center}
+h1{color: grey;text-align:center}
+
+#missatge {
+    position: fixed;
+    top: 10%;
+    width: 80%;
+    line-height: 200%;
+    left: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 400%;
+    border: solid white;
+    background:grey;
+    opacity: 0.8;
+    display: none;
+	z-index:10;
+}
